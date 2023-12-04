@@ -14,9 +14,8 @@ const menu = [
     category: "Burger",
     price: 300.0,
     img: "./images/item-2.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a. `,
+    desc: `One beef patty, toasted buns, cheese,beef pepperoni 
+    , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise) `,
   },
   {
     id: 3,
@@ -24,9 +23,7 @@ const menu = [
     category: "Burger",
     price: 180.0,
     img: "./images/normal.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    desc: `One beef patty , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 4,
@@ -34,9 +31,7 @@ const menu = [
     category: "Burger",
     price: 220.0,
     img: "./images/item-8.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    desc: `One beef patty , cheese, fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 5,
@@ -44,19 +39,15 @@ const menu = [
     category: "Sandwich",
     price: 250,
     img: "./images/club.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    desc: `Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 6,
     title: "Egg Sandwich",
     category: "Sandwich",
     price: 150.0,
-    img: "./images/EGG.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    img: "./images/egg.jpeg",
+    desc: `Toasted bread,eggs,veggies(optional)`,
   },
   {
     id: 7,
@@ -64,9 +55,7 @@ const menu = [
     category: "Sandwich",
     price: 200.0,
     img: "./images/tuna.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 8,
@@ -74,9 +63,7 @@ const menu = [
     category: "Sandwich",
     price: 120.0,
     img: "./images/avocado.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-        optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-        rerum a.`,
+    desc: `Toasted bread,Avocado,veggies`,
   },
   {
     id: 9,
@@ -274,7 +261,7 @@ const menu = [
     title: "Soft Drink",
     category: "Drinks",
     price: 30.0,
-    img: "./images/item-6.jpeg",
+    img: "./images/soft-drinks.jpeg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
