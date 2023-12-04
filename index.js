@@ -47,7 +47,7 @@ const menu = [
     category: "Sandwich",
     price: 150.0,
     img: "./images/egg.jpeg",
-    desc: `Toasted bread,eggs,veggies(optional)`,
+    desc: `Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const menu = [
     category: "Sandwich",
     price: 120.0,
     img: "./images/avocado.jpg",
-    desc: `Toasted bread,Avocado,veggies`,
+    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
   },
   {
     id: 9,
@@ -140,7 +140,7 @@ const menu = [
     title: "Chechebsa",
     category: "Breakfast",
     price: 80.0,
-    img: "./images/item-3.jpeg",
+    img: "./images/chechebsanorm.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
@@ -150,7 +150,7 @@ const menu = [
     title: "Special Chechebsa",
     category: "Breakfast",
     price: 120.0,
-    img: "./images/item-6.jpeg",
+    img: "./images/chechebsaspec.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
@@ -160,7 +160,7 @@ const menu = [
     title: "Fatira",
     category: "Breakfast",
     price: 100.0,
-    img: "./images/item-9.jpeg",
+    img: "./images/fetira.png",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
@@ -180,7 +180,7 @@ const menu = [
     title: "Special Ful",
     category: "Breakfast",
     price: 120.0,
-    img: "./images/item-9.jpeg",
+    img: "./images/specful.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
