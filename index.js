@@ -1,72 +1,6 @@
 const menu = [
   {
     id: 1,
-    title: "Double Burger",
-    category: "Burger",
-    price: 350.0,
-    img: "./images/double.jpg",
-    desc: `Two beef patties, toasted buns, cheese,beef pepperoni 
-          , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise),`,
-  },
-  {
-    id: 2,
-    title: "Special Burger",
-    category: "Burger",
-    price: 300.0,
-    img: "./images/item-2.jpeg",
-    desc: `One beef patty, toasted buns, cheese,beef pepperoni 
-    , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise) `,
-  },
-  {
-    id: 3,
-    title: "Normal Burger",
-    category: "Burger",
-    price: 180.0,
-    img: "./images/normal.jpg",
-    desc: `One beef patty , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
-  },
-  {
-    id: 4,
-    title: "Cheese Burger",
-    category: "Burger",
-    price: 220.0,
-    img: "./images/item-8.jpeg",
-    desc: `One beef patty , cheese, fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
-  },
-  {
-    id: 5,
-    title: "Club Sandwich",
-    category: "Sandwich",
-    price: 250,
-    img: "./images/club.jpg",
-    desc: `Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
-  },
-  {
-    id: 6,
-    title: "Egg Sandwich",
-    category: "Sandwich",
-    price: 150.0,
-    img: "./images/egg.jpeg",
-    desc: `Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
-  },
-  {
-    id: 7,
-    title: "Tuna Sandwich",
-    category: "Sandwich",
-    price: 200.0,
-    img: "./images/tuna.jpg",
-    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
-  },
-  {
-    id: 8,
-    title: "Avocado Sandwich",
-    category: "Sandwich",
-    price: 120.0,
-    img: "./images/avocado.jpg",
-    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
-  },
-  {
-    id: 9,
     title: "Special Pizza",
     category: "Pizza",
     price: 450.0,
@@ -76,7 +10,7 @@ const menu = [
     rerum a. `,
   },
   {
-    id: 10,
+    id: 2,
     title: "Beef Pizza",
     category: "Pizza",
     price: 300.0,
@@ -86,7 +20,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 11,
+    id: 3,
     title: "Tuna Pizza",
     category: "Pizza",
     price: 350.0,
@@ -96,7 +30,7 @@ const menu = [
     rerum a.  `,
   },
   {
-    id: 12,
+    id: 4,
     title: "Vegetable Pizza",
     category: "Pizza",
     price: 250.0,
@@ -106,7 +40,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 13,
+    id: 5,
     title: "Margarita Pizza",
     category: "Pizza",
     price: 280.0,
@@ -116,7 +50,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 14,
+    id: 6,
     title: "Chicken Pizza",
     category: "Pizza",
     price: 350.0,
@@ -126,7 +60,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 15,
+    id: 7,
     title: "Veggie and Tuna Pizza",
     category: "Pizza",
     price: 330.0,
@@ -136,7 +70,91 @@ const menu = [
     rerum a.`,
   },
   {
+    
+    id: 8,
+    title: "Double Burger",
+    category: "Burger",
+    price: 350.0,
+    img: "./images/double.jpg",
+    desc: `Two beef patties, toasted buns, cheese,beef pepperoni 
+          , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise),`,
+  },
+  {
+    id: 9,
+    title: "Special Burger",
+    category: "Burger",
+    price: 300.0,
+    img: "./images/item-2.jpeg",
+    desc: `One beef patty, toasted buns, cheese,beef pepperoni 
+    , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise) `,
+  },
+  {
+    id: 10,
+    title: "Normal Burger",
+    category: "Burger",
+    price: 180.0,
+    img: "./images/normal.jpg",
+    desc: `One beef patty , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
+  },
+  {
+    id: 11,
+    title: "Cheese Burger",
+    category: "Burger",
+    price: 220.0,
+    img: "./images/item-8.jpeg",
+    desc: `One beef patty , cheese, fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
+  },
+  {
+    id: 12,
+    title: "Club Sandwich",
+    category: "Sandwich",
+    price: 250,
+    img: "./images/club.jpg",
+    desc: `Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
+  },
+  {
+    id: 13,
+    title: "Egg Sandwich",
+    category: "Sandwich",
+    price: 150.0,
+    img: "./images/egg.jpeg",
+    desc: `Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
+  },
+  {
+    id: 14,
+    title: "Tuna Sandwich",
+    category: "Sandwich",
+    price: 200.0,
+    img: "./images/tuna.jpg",
+    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
+  },
+  {
+    id: 15,
+    title: "Avocado Sandwich",
+    category: "Sandwich",
+    price: 120.0,
+    img: "./images/avocado.jpg",
+    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
+  },
+  {
     id: 16,
+    title: "Erteb",
+    category: "Sandwich",
+    price: 50.0,
+    img: "./images/tuna.jpg",
+    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
+  },
+  {
+    id: 17,
+    title: "Special Erteb",
+    category: "Sandwich",
+    price: 100.0,
+    img: "./images/avocado.jpg",
+    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
+  },
+  
+  {
+    id: 18,
     title: "Chechebsa",
     category: "Breakfast",
     price: 80.0,
@@ -146,7 +164,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 17,
+    id: 10,
     title: "Special Chechebsa",
     category: "Breakfast",
     price: 120.0,
@@ -156,7 +174,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 18,
+    id: 20,
     title: "Fatira",
     category: "Breakfast",
     price: 100.0,
@@ -166,7 +184,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 19,
+    id: 21,
     title: "Ful",
     category: "Breakfast",
     price: 80.0,
@@ -176,7 +194,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 20,
+    id: 22,
     title: "Special Ful",
     category: "Breakfast",
     price: 120.0,
@@ -186,7 +204,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 21,
+    id: 23,
     title: "Omlet",
     category: "Breakfast",
     price: 90.0,
@@ -196,7 +214,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 22,
+    id: 24,
     title: "Pasta With Vegetable",
     category: "Breakfast",
     price: 80.0,
@@ -206,7 +224,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 23,
+    id: 25,
     title: "Tea",
     category: "Drinks",
     price: 15.0,
@@ -217,7 +235,7 @@ const menu = [
   },
 
   {
-    id: 24,
+    id: 26,
     title: "Milk",
     category: "Drinks",
     price: 30.0,
@@ -227,7 +245,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 25,
+    id: 27,
     title: "Coffee",
     category: "Drinks",
     price: 25.0,
@@ -237,7 +255,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 26,
+    id: 28,
     title: "Macchiato",
     category: "Drinks",
     price: 25.0,
@@ -247,7 +265,7 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 27,
+    id: 29,
     title: "Keshir Tea",
     category: "Drinks",
     price: 25.0,
@@ -257,17 +275,17 @@ const menu = [
     rerum a.`,
   },
   {
-    id: 28,
+    id: 30,
     title: "Soft Drink",
     category: "Drinks",
     price: 30.0,
-    img: "./images/soft-drinks.jpeg",
+    img: "./images/softdrink.jpg",
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
     optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
     rerum a.`,
   },
   {
-    id: 29,
+    id: 31,
     title: "Juice",
     category: "Drinks",
     price: 80.0,
