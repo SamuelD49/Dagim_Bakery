@@ -4,70 +4,56 @@ const menu = [
     title: "Special Pizza",
     category: "Pizza",
     price: 450.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a. `,
+    img: "./images/special.png",
+    desc: `Sauce,chesse,beef,eggs,tuna or chicken(optional),tomato,pepper,olive`,
   },
   {
     id: 2,
     title: "Beef Pizza",
     category: "Pizza",
     price: 300.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/beefpizza.jpg",
+    desc: `Sauce,chesse,beef,olive,tomato,pepper   ............................................................`,
   },
   {
     id: 3,
     title: "Tuna Pizza",
     category: "Pizza",
     price: 350.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.  `,
+    img: "./images/tunapizza.jpg",
+    desc: `Sauce,chesse,tuna,tomato,pepper,olive  .........................................................`,
   },
   {
     id: 4,
     title: "Vegetable Pizza",
     category: "Pizza",
     price: 250.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/vegpizza.jpg",
+    desc: `Sauce,different types of veggies,olive  .........................................................`,
   },
   {
     id: 5,
     title: "Margarita Pizza",
     category: "Pizza",
     price: 280.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/marg.png",
+    desc: `Sauce,chesse,tomato,pepper,olive  .........................................................`,
   },
   {
     id: 6,
     title: "Chicken Pizza",
     category: "Pizza",
     price: 350.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/chickenpizza.jpg",
+    desc: `Sauce,chesse,chicken,tomato,pepper,olive  .........................................................`,
   },
   {
     id: 7,
     title: "Veggie and Tuna Pizza",
     category: "Pizza",
     price: 330.0,
-    img: "./images/pizza.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/vegtunapizza.jpg",
+    desc: `Sauce,tuna,different types of veggies,olive  .........................................................`,
   },
   {
     
@@ -125,7 +111,7 @@ const menu = [
     title: "Tuna Sandwich",
     category: "Sandwich",
     price: 200.0,
-    img: "./images/tuna.jpg",
+    img: "./images/tunasand.jpg",
     desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
@@ -141,16 +127,16 @@ const menu = [
     title: "Erteb",
     category: "Sandwich",
     price: 50.0,
-    img: "./images/tuna.jpg",
-    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
+    img: "./images/erteb.jpg",
+    desc: `Toasted bread,sauce,potato,condiments(ketchup, mustard)`,
   },
   {
     id: 17,
     title: "Special Erteb",
     category: "Sandwich",
-    price: 100.0,
-    img: "./images/avocado.jpg",
-    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
+    price: 120.0,
+    img: "./images/specerteb.jpg",
+    desc: `Toasted bread,sauce,potato,condiments(ketchup, mustard),egg,cheese,beef`,
   },
   
   {
@@ -159,19 +145,16 @@ const menu = [
     category: "Breakfast",
     price: 80.0,
     img: "./images/chechebsanorm.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    desc: `Traditional flat bread ,butter,honey       
+     ..................................`,
   },
   {
     id: 10,
     title: "Special Chechebsa",
     category: "Breakfast",
     price: 120.0,
-    img: "./images/chechebsaspec.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/chechebsa.jpg",
+    desc: `Traditional flat bread ,butter,honey,eggs ..........................                  `,
   },
   {
     id: 20,
@@ -179,19 +162,15 @@ const menu = [
     category: "Breakfast",
     price: 100.0,
     img: "./images/fetira.png",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    desc: `Flat bread(pita),eggs,tomatoes,onions ..........................................`,
   },
   {
     id: 21,
     title: "Ful",
     category: "Breakfast",
     price: 80.0,
-    img: "./images/item-9.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/ful.jpg",
+    desc: `full beans ,tomato,onion,peppers  ..............................................`,
   },
   {
     id: 22,
@@ -199,39 +178,31 @@ const menu = [
     category: "Breakfast",
     price: 120.0,
     img: "./images/specful.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    desc: `Ful beans ,tomato,onion,peppers,eggs,youghurt  .....................................`,
   },
   {
     id: 23,
     title: "Omlet",
     category: "Breakfast",
-    price: 90.0,
+    price: 100.0,
     img: "./images/omlet.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    desc: `Eggs,tomato,cheese(optional) ................................................`,
   },
   {
     id: 24,
     title: "Pasta With Vegetable",
     category: "Breakfast",
     price: 80.0,
-    img: "./images/item-9.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/pastaveg.jpg",
+    desc: `Spaghetti, stir fried veggies .................................................................`,
   },
   {
     id: 25,
     title: "Tea",
     category: "Drinks",
     price: 15.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/tea2.jpg",
+    desc: `Tea  .................................................................................................`,
   },
 
   {
@@ -239,40 +210,32 @@ const menu = [
     title: "Milk",
     category: "Drinks",
     price: 30.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/milk.jpg",
+    desc: `Hot milk   ..................................................................................................`,
   },
   {
     id: 27,
     title: "Coffee",
     category: "Drinks",
     price: 25.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/coffee.jpg",
+    desc: `Coffee .....................................................................................................`,
   },
   {
     id: 28,
     title: "Macchiato",
     category: "Drinks",
     price: 25.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/machiatto.jpg",
+    desc: `Machiatto  .......................................................................................................`,
   },
   {
     id: 29,
     title: "Keshir Tea",
     category: "Drinks",
     price: 25.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/keshir.jpg",
+    desc: `Keshir   ......................................................................................................`,
   },
   {
     id: 30,
@@ -280,19 +243,16 @@ const menu = [
     category: "Drinks",
     price: 30.0,
     img: "./images/softdrink.jpg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    desc: `Soft drinks   ......................................................................................................`,
   },
   {
     id: 31,
     title: "Juice",
     category: "Drinks",
     price: 80.0,
-    img: "./images/item-6.jpeg",
-    desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officiis
-    optio magni blanditiis nisi, dignissimos nam unde enim voluptatibus
-    rerum a.`,
+    img: "./images/juice.jpg",
+    desc: `Avocado,Papaya, Different Smoothies     .......................................................................................................                                         
+         `,
   },
 ];
 
