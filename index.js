@@ -1,257 +1,282 @@
 const menu = [
   {
     id: 1,
-    title: "Special Pizza",
+    title: "Special Pizza / ስፔሻል ፒዛ",
     category: "Pizza",
     price: 450.0,
     img: "./images/special.png",
-    desc: `Sauce,chesse,beef,eggs,tuna or chicken(optional),tomato,pepper,olive`,
+    desc: `ቲማቲም ሶስ ፣ ቺዝ ፣ የዶሮ ስጋ / ቱና ፣ እንቁላል ፣ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,chesse,beef,eggs,tuna or chicken(optional),tomato,pepper,olive`,
   },
   {
     id: 2,
-    title: "Beef Pizza",
+    title: "Beef Pizza / ቢፍ ፒዛ",
     category: "Pizza",
     price: 300.0,
     img: "./images/beefpizza.jpg",
-    desc: `Sauce,chesse,beef,olive,tomato,pepper   ............................................................`,
+    desc: `ቲማቲም ሶስ ፣ ቺዝ ፣ የተፈጨ ስጋ ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,chesse,beef,olive,tomato,pepper   `,
   },
   {
     id: 3,
-    title: "Tuna Pizza",
+    title: "Tuna Pizza / ቱና ፒዛ",
     category: "Pizza",
     price: 350.0,
     img: "./images/tunapizza.jpg",
-    desc: `Sauce,chesse,tuna,tomato,pepper,olive  .........................................................`,
+    desc: `ቲማቲም ሶስ ፣ ቺዝ ፣ ቱና ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,chesse,tuna,tomato,pepper,olive  `,
   },
   {
     id: 4,
-    title: "Vegetable Pizza",
+    title: "Vegetable Pizza / አትክልት ፒዛ",
     category: "Pizza",
     price: 250.0,
     img: "./images/vegpizza.jpg",
-    desc: `Sauce,different types of veggies,olive  .........................................................`,
+    desc: `ቲማቲም ሶስ  ፣ የተጠብሱ አታክልቶች ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,different types of veggies,olive  `,
   },
   {
     id: 5,
-    title: "Margarita Pizza",
+    title: "Margarita Pizza / ማርገሪታ ፒዛ",
     category: "Pizza",
     price: 280.0,
     img: "./images/marg.png",
-    desc: `Sauce,chesse,tomato,pepper,olive  .........................................................`,
+    desc: `ቲማቲም ሶስ ፣ ቺዝ ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,chesse,tomato,pepper,olive `,
   },
   {
     id: 6,
-    title: "Chicken Pizza",
+    title: "Chicken Pizza / ቺክን ፒዛ",
     category: "Pizza",
     price: 350.0,
     img: "./images/chickenpizza.jpg",
-    desc: `Sauce,chesse,chicken,tomato,pepper,olive  .........................................................`,
+    desc: `ቲማቲም ሶስ ፣ ቺዝ ፣ የዶሮ ስጋ ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,chesse,chicken,tomato,pepper,olive  `,
   },
   {
     id: 7,
-    title: "Veggie and Tuna Pizza",
+    title: "Veggie and Tuna Pizza / አትክልትና ቱና ፒዛ",
     category: "Pizza",
     price: 330.0,
     img: "./images/vegtunapizza.jpg",
-    desc: `Sauce,tuna,different types of veggies,olive  .........................................................`,
+    desc: `ቲማቲም ሶስ  ፣ የተጠብሱ አታክልቶች ፣ ቱና ፣ ቃርያ ፣ ቲማቲም ፣ ኦሊቭ
+    Sauce,tuna,different types of veggies,olive `,
   },
   {
     
     id: 8,
-    title: "Double Burger",
+    title: "Double Burger / ደብል በርገር ",
     category: "Burger",
     price: 350.0,
     img: "./images/double.jpg",
-    desc: `Two beef patties, toasted buns, cheese,beef pepperoni 
-          , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise),`,
+    desc: `ሁለት ስጋ ፣ ቺዝ ፣ የጥጃ ስጋ ፣ ሰላጣ ፣ ሽንኩርት ፣ ቲማቲም ፣ ማዮኒዝ ፣
+            Two beef patties, cheese,beef pepperoni 
+          , fresh lettuce, tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise),`,
   },
   {
     id: 9,
-    title: "Special Burger",
+    title: "Special Burger / ስፔሻል በርገር",
     category: "Burger",
     price: 300.0,
     img: "./images/item-2.jpeg",
-    desc: `One beef patty, toasted buns, cheese,beef pepperoni 
-    , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise) `,
+    desc: `ስጋ ፣ ቺዝ ፣ የጥጃ ስጋ ፣ እንቁላል ፣ ሰላጣ ፣ ሽንኩርት ፣ ቲማቲም ፣ ማዮኒዝ ፣
+      One beef patty, cheese, beef pepperoni 
+    , fresh lettuce, tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise) `,
   },
   {
     id: 10,
-    title: "Normal Burger",
+    title: "Normal Burger / ኖርማል በርገር",
     category: "Burger",
     price: 180.0,
     img: "./images/normal.jpg",
-    desc: `One beef patty , fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
+    desc: ` ስጋ ፣ ሰላጣ ፣ ሽንኩርት ፣ ቲማቲም ፣ ማዮኒዝ ፣..................................
+     One beef patty , fresh lettuce, tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 11,
-    title: "Cheese Burger",
+    title: "Cheese Burger / ቺዝ በርገር",
     category: "Burger",
     price: 220.0,
     img: "./images/item-8.jpeg",
-    desc: `One beef patty , cheese, fresh lettuce, ripe tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
+    desc: ` ስጋ ፣ ቺዝ ፣ሰላጣ ፣ ሽንኩርት ፣ ቲማቲም ፣ ማዮኒዝ ፣............................
+    One beef patty , cheese, fresh lettuce, tomatoes, sliced onions (raw or grilled), condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 12,
-    title: "Club Sandwich",
+    title: "Club Sandwich / ክለብ ሳንድዊች",
     category: "Sandwich",
     price: 250,
     img: "./images/club.jpg",
-    desc: `Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
+    desc: `የዶሮ ስጋ ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ..................
+    Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 13,
-    title: "Egg Sandwich",
+    title: "Egg Sandwich / እንቁላል ሳንድዊች",
     category: "Sandwich",
     price: 150.0,
     img: "./images/egg.jpeg",
-    desc: `Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
+    desc: ` እንቁላል ሳንድዊች .............................................................
+    Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
   },
   {
     id: 14,
-    title: "Tuna Sandwich",
+    title: "Tuna Sandwich / ቱና ሳንድዊች",
     category: "Sandwich",
     price: 200.0,
     img: "./images/tunasand.jpg",
-    desc: `Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
+    desc: `ቱና ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ.........................
+    Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
     id: 15,
-    title: "Avocado Sandwich",
+    title: "Avocado Sandwich / አቮካዶ ሳንድዊች",
     category: "Sandwich",
     price: 120.0,
     img: "./images/avocado.jpg",
-    desc: `Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
+    desc: ` አቮካዶ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ 
+    Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
   },
   {
     id: 16,
-    title: "Erteb",
+    title: "Erteb / እርጥብ",
     category: "Sandwich",
     price: 50.0,
     img: "./images/erteb.jpg",
-    desc: `Toasted bread,sauce,potato,condiments(ketchup, mustard)`,
+    desc: ` ኖርማል እርጥብ ..............................................................
+    Toasted bread,sauce,potato,condiments(ketchup, mustard)`,
   },
   {
     id: 17,
-    title: "Special Erteb",
+    title: "Special Erteb / ስፔሻል እርጥብ",
     category: "Sandwich",
     price: 120.0,
     img: "./images/specerteb.jpg",
-    desc: `Toasted bread,sauce,potato,condiments(ketchup, mustard),egg,cheese,beef`,
+    desc: ` ድንች ፣ ቃሪያ ፣ እንቁላል ፣ ቺዝ ፣ የጥጃ ስጋ ፣ ኬቻፕ ......................
+    Toasted bread,sauce,potato,condiments(ketchup, mustard),egg,cheese,beef`,
   },
   
   {
     id: 18,
-    title: "Chechebsa",
+    title: "Chechebsa / ጨጨብሳ",
     category: "Breakfast",
     price: 80.0,
     img: "./images/chechebsanorm.jpg",
-    desc: `Traditional flat bread ,butter,honey       
-     ..................................`,
+    desc: `የጨጨብሳ ቂጣ ፣ የአትክልት ቂቤ  ፣ ማር .........................
+    Traditional flat bread ,butter,honey       
+     `,
   },
   {
     id: 10,
-    title: "Special Chechebsa",
+    title: "Special Chechebsa /  ስፔሻል ጨጨብሳ ",
     category: "Breakfast",
     price: 120.0,
     img: "./images/chechebsa.jpg",
-    desc: `Traditional flat bread ,butter,honey,eggs ..........................                  `,
+    desc: `የጨጨብሳ ቂጣ ፣ የአትክልት ቂቤ ፤ እንቁላል ፣ ማር .........................
+    Traditional flat bread ,butter,honey,eggs                   `,
   },
   {
     id: 20,
-    title: "Fatira",
+    title: "Fatira / ፈጢራ",
     category: "Breakfast",
     price: 100.0,
     img: "./images/fetira.png",
-    desc: `Flat bread(pita),eggs,tomatoes,onions ..........................................`,
+    desc: `ቂጣ ፤ እንቁላል ፣ ቲማቲም ፣ ሽንኩርት ፣ ማር .................................
+    Flat bread(pita),eggs,tomatoes,onions,honey `,
   },
   {
     id: 21,
-    title: "Ful",
+    title: "Ful / ፉል",
     category: "Breakfast",
     price: 80.0,
     img: "./images/ful.jpg",
-    desc: `full beans ,tomato,onion,peppers  ..............................................`,
+    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ....................................
+    Ful beans ,tomato,onion,peppers `,
   },
   {
     id: 22,
-    title: "Special Ful",
+    title: "Special Ful / ስፔሻል ፉል",
     category: "Breakfast",
     price: 120.0,
     img: "./images/specful.jpg",
-    desc: `Ful beans ,tomato,onion,peppers,eggs,youghurt  .....................................`,
+    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ፣ እንቁላል ፣ እርጎ ................ 
+    Ful beans ,tomato,onion,peppers,eggs,youghurt  `,
   },
   {
     id: 23,
-    title: "Omlet",
+    title: "Omlet / ኦምሌት",
     category: "Breakfast",
     price: 100.0,
     img: "./images/omlet.jpeg",
-    desc: `Eggs,tomato,cheese(optional) ................................................`,
+    desc: `እንቁላል ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ፣ ቺዝ (እንደፍላጎት)
+    Eggs,tomato,cheese(optional) ................................................`,
   },
   {
     id: 24,
-    title: "Pasta With Vegetable",
+    title: "Veggi Pasta / ፓስታ በአትክልት",
     category: "Breakfast",
     price: 80.0,
     img: "./images/pastaveg.jpg",
-    desc: `Spaghetti, stir fried veggies .................................................................`,
+    desc: ` የተቀቀለ ፓስታ ፤ የተጠበሱ አታክልቶች ...............................
+    Spaghetti, stir fried veggies `,
   },
   {
     id: 25,
-    title: "Tea",
+    title: "Tea / ሻይ",
     category: "Drinks",
     price: 15.0,
     img: "./images/tea2.jpg",
-    desc: `Tea  .................................................................................................`,
+    desc: `ሻይ / Tea  .......................................................................................`,
   },
 
   {
     id: 26,
-    title: "Milk",
+    title: "Milk / ወተት",
     category: "Drinks",
     price: 30.0,
     img: "./images/milk.jpg",
-    desc: `Hot milk   ..................................................................................................`,
+    desc: `ትኩስ ወተት / Hot milk   ..................................................................................................`,
   },
   {
     id: 27,
-    title: "Coffee",
+    title: "Coffee / ቡና",
     category: "Drinks",
     price: 25.0,
     img: "./images/coffee.jpg",
-    desc: `Coffee .....................................................................................................`,
+    desc: `ቡና / Coffee ............................................................................................`,
   },
   {
     id: 28,
-    title: "Macchiato",
+    title: "Macchiato / ማኪያቶ",
     category: "Drinks",
     price: 25.0,
     img: "./images/machiatto.jpg",
-    desc: `Machiatto  .......................................................................................................`,
+    desc: `ማኪያቶ / Machiatto  .......................................................................................................`,
   },
   {
     id: 29,
-    title: "Keshir Tea",
+    title: "Keshir Tea / ቀሽር",
     category: "Drinks",
     price: 25.0,
     img: "./images/keshir.jpg",
-    desc: `Keshir   ......................................................................................................`,
+    desc: `ቀሽር /Keshir   ............................................................................................`,
   },
   {
     id: 30,
-    title: "Soft Drink",
+    title: "Soft Drink / ለስላሳ",
     category: "Drinks",
     price: 30.0,
     img: "./images/softdrink.jpg",
-    desc: `Soft drinks   ......................................................................................................`,
+    desc: `ለስላሳ / Soft drinks   ...............................................................................................`,
   },
   {
     id: 31,
-    title: "Juice",
+    title: "Juice / ጁስ",
     category: "Drinks",
     price: 80.0,
     img: "./images/juice.jpg",
-    desc: `Avocado,Papaya, Different Smoothies     .......................................................................................................                                         
+    desc: `አቮካዶ ፣ ፓፓያ እና ሌሎች ጭማቂዎች ...............................
+    Avocado,Papaya, Different Smoothies                                             
          `,
   },
 ];
@@ -274,7 +299,7 @@ function displayMenuItems(menuList) {
         <div class="item-info">
           <header>
             <h4>${item.title}</h4>
-            <h4 class="price">${item.price} ETB</h4>
+            <h4 class="price">   ${item.price} ETB</h4>
           </header>
           <p class="item-text">
             ${item.desc}

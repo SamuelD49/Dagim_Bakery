@@ -274,3 +274,22 @@ Menu
     height: 150px;
   }
 }
+.section-footer {
+  padding-top: 6rem;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .section-footer {
+    /* grid-template-columns: 200px 1fr; */
+    gap: 0 1rem;
+    max-width: 15rem;
+    
+  }
+  
+}
