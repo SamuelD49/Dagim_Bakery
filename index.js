@@ -107,7 +107,7 @@ const menu = [
     category: "Sandwich",
     price: 250,
     img: "./images/club.jpg",
-    desc: `የዶሮ ስጋ ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ..................
+    desc: `የዶሮ ስጋ ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ .................................
     Toasted bread, chicken,fresh vegetables,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
@@ -116,7 +116,7 @@ const menu = [
     category: "Sandwich",
     price: 150.0,
     img: "./images/egg.jpeg",
-    desc: ` እንቁላል ሳንድዊች .............................................................
+    desc: ` እንቁላል ሳንድዊች ..............................................................................
     Toasted bread,eggs,veggies(tomato,bell peppers & other condiments)`,
   },
   {
@@ -125,7 +125,7 @@ const menu = [
     category: "Sandwich",
     price: 200.0,
     img: "./images/tunasand.jpg",
-    desc: `ቱና ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ.........................
+    desc: `ቱና ፣ ማዮኒዝ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ........................................
     Toasted bread,Tuna,veggies,condiments (ketchup, mustard, mayonnaise)`,
   },
   {
@@ -134,7 +134,7 @@ const menu = [
     category: "Sandwich",
     price: 120.0,
     img: "./images/avocado.jpg",
-    desc: ` አቮካዶ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ 
+    desc: ` አቮካዶ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ .....................................................
     Toasted bread,Avocado,veggies(tomato,bell peppers & other condiments)`,
   },
   {
@@ -143,7 +143,7 @@ const menu = [
     category: "Sandwich",
     price: 50.0,
     img: "./images/erteb.jpg",
-    desc: ` ኖርማል እርጥብ ..............................................................
+    desc: ` ኖርማል እርጥብ ................................................................................
     Toasted bread,sauce,potato,condiments(ketchup, mustard)`,
   },
   {
@@ -152,7 +152,7 @@ const menu = [
     category: "Sandwich",
     price: 120.0,
     img: "./images/specerteb.jpg",
-    desc: ` ድንች ፣ ቃሪያ ፣ እንቁላል ፣ ቺዝ ፣ የጥጃ ስጋ ፣ ኬቻፕ ......................
+    desc: ` ድንች ፣ ቃሪያ ፣ እንቁላል ፣ ቺዝ ፣ የጥጃ ስጋ ፣ ኬቻፕ ...................................
     Toasted bread,sauce,potato,condiments(ketchup, mustard),egg,cheese,beef`,
   },
   
@@ -162,7 +162,7 @@ const menu = [
     category: "Breakfast",
     price: 80.0,
     img: "./images/chechebsanorm.jpg",
-    desc: `የጨጨብሳ ቂጣ ፣ የአትክልት ቂቤ  ፣ ማር .........................
+    desc: `የጨጨብሳ ቂጣ ፣ የአትክልት ቂቤ  ፣ ማር ...........................................
     Traditional flat bread ,butter,honey       
      `,
   },
@@ -181,7 +181,7 @@ const menu = [
     category: "Breakfast",
     price: 100.0,
     img: "./images/fetira.png",
-    desc: `ቂጣ ፤ እንቁላል ፣ ቲማቲም ፣ ሽንኩርት ፣ ማር .................................
+    desc: `ቂጣ ፤ እንቁላል ፣ ቲማቲም ፣ ሽንኩርት ፣ ማር ........................................
     Flat bread(pita),eggs,tomatoes,onions,honey `,
   },
   {
@@ -190,7 +190,7 @@ const menu = [
     category: "Breakfast",
     price: 80.0,
     img: "./images/ful.jpg",
-    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ....................................
+    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ..............................................
     Ful beans ,tomato,onion,peppers `,
   },
   {
@@ -199,7 +199,7 @@ const menu = [
     category: "Breakfast",
     price: 120.0,
     img: "./images/specful.jpg",
-    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ፣ እንቁላል ፣ እርጎ ................ 
+    desc: `የፉል ባቄላ ፣ ቲማቲም ፣ ሽንኩርት ፣ ቃሪያ ፣ እንቁላል ፣ እርጎ ......................... 
     Ful beans ,tomato,onion,peppers,eggs,youghurt  `,
   },
   {
@@ -217,7 +217,7 @@ const menu = [
     category: "Breakfast",
     price: 80.0,
     img: "./images/pastaveg.jpg",
-    desc: ` የተቀቀለ ፓስታ ፤ የተጠበሱ አታክልቶች ...............................
+    desc: ` የተቀቀለ ፓስታ ፤ የተጠበሱ አታክልቶች ........................................
     Spaghetti, stir fried veggies `,
   },
   {
